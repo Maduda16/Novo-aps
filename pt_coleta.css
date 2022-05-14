@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Hind', sans-serif;
+    margin: 0;
+    background: #e1e1e1;
+}
+
+main{
+    padding: 0 20px;
+    display: table;
+}
+
+header{
+    text-align: center;
+    background: #317A86;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 25px;
+    color: rgb(253, 251, 243);
+}
+
+nav ul{
+    list-style: none;
+    background: #78c0a9;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+}
+
+nav li{
+    float:left;
+}
+
+nav a:hover{
+    background: #fff;
+    color: darkcyan;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+aside{
+    float:left;
+    width: 25%;
+    padding: 20px;
+}
+
+article{
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+// comentario
+
+#right {
+    padding: 0px;
+    width: ;
+    height: 0px;
+}
+#left {
+    padding: 500px;
+    width: 100;
+    height: 0;
+}
+
+#header {
+    width: 100%;
+    background-color: red;
+    height: 30px;
+}
+
+#container {
+    width: 300px;
+    background-color: #ffcc33;
+    margin: auto;
+}
+#first {
+    width: 100px;
+    float: left;
+    height: 300px;
+        background-color: blue;
+}
+#second {
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: green;
+}
+#clear {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    section, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
